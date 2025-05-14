@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2%;
+    background-color: rgb(236, 243, 249);
+}
+
+h1 {
+    text-align: center;
+    border: 2% solid rgb(0, 94, 157);
+    border-radius: 4%;
+    background-color: bisque;
+}
+
+.section {
+    background-color: rgba(70, 184, 255, 0.144);
+    margin-bottom: 2%;
+    border: 8% solid rgb(0, 94, 157);
+    border-radius: 4%;
+    padding: 2%;
+}
+
+.imagem-campanha {
+    display: inline-block;
+    max-width: 25%;
+    margin: 4%;
+}
+
+.table-container {
+    overflow-x: 8%;
+    /* Adiciona barra de rolagem horizontal se necessário */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: none
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    padding: 2px;
+    text-align: left;
+}
+
+img {
+    max-width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    /
+}
+
+
+.bulletin-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #000000;
+}
+
+.imagens-lado-a-lado img {
+    max-width: 30%;
+    height: 30%;
+    margin-left: 14%;
+    vertical-align: middle;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+.imagens-lado-a-lado2 {
+    width: 100%;
+    height: 50%;
+    margin: 0%;
+    margin-left: 2%;
+    margin-right: -600%;
+    margin-bottom: 10%;
+    display: inline-block;
+    gap: -70%;
+}
+
+.doação {
+    background-color: aliceblue;
+    width: 400%;
+    height: 400%;
+    margin-right: 20%;
+    margin-top: -2%;
+    display: inline;
+    vertical-align: middle;
+    vertical-align: middle;
+}
